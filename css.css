@@ -1,0 +1,235 @@
+/* "Close" icon style and position */
+.icon-close {
+  cursor: pointer;
+  text-align:center;
+  padding-top: 10px;
+}
+
+/* Hiden Menu Style and position */
+.hiden {
+     width:100%;
+}
+
+.hidenMenu {
+  top: -120px ;  /* start off behind the scenes */
+  position: fixed;
+  height:100px;
+  width: 100%;
+  border-bottom: 0.15em solid #898989;
+    background-color:white;
+        text-align:center;
+}
+
+.hidenMenu .menu {
+  text-align:center;
+  list-style: none;
+  margin-top: 5px;
+  font-family: "Helvetica";
+}
+
+.menu > li {
+  display: inline;
+  padding-left: 2em;
+  padding-right: 2em;
+  margin-right: 2em;
+}
+
+.menu a {
+  color: #898989;
+}
+
+/* Remove decorations for LINKs */
+.menu a:link {
+    text-decoration: none;
+}
+
+.menu a:visited {
+    text-decoration: none;
+}
+
+/* Icon "Menu" */
+
+.icon-menu {
+    cursor: pointer;
+    color: #898989;
+    text-align: center;
+    font-family: "Helvetica";
+    padding-bottom: 2.6em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 2.6em;
+    text-decoration: none;
+    text-transform: uppercase;
+    /* margin-bottom: 50px; */
+    font-size: 15px;
+    
+}
+
+/* BODY */
+body {
+  overflow: hidden;
+  position:static;
+}
+
+.slider {
+    background-color: white;
+  position: relative;
+  width: 100%;
+  height: 500px;
+  border-top:1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+.slide {
+    background-color: white;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+}
+
+.first-slide {
+    display: block;
+}
+
+.slideImg {
+    margin-top:1%;
+  text-align: center;
+}
+
+.content h1 {
+  text-align: center;
+  color: #363636;  
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  margin-top: 1em;
+  margin-bottom: 0px;
+}
+
+.content p {
+  text-align: center;
+  color: #959595;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.15em;
+  line-height: 1.75em;
+  margin-bottom: 15px;
+  margin-top: 16px;
+  padding-right:30%;
+  padding-left:30%;
+  margin-bottom:1%;
+}
+
+.arrow-prev {
+  /*   text-align: left;*/
+ /*  margin-right: 20%; */
+  margin-left: 18em;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 10em;
+}
+
+.arrow-next {
+ /*    text-align: right;*/
+ /*  margin-left: 20%; */
+   margin-right: 18em;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 10em;
+}
+
+.sliderOne {
+ float:left;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 9px;
+}
+
+.sliderTwo {
+  float:right;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 9px;
+}
+
+.sliders {
+    width: 100%;
+    position: absolute;
+    text-align:center;
+    z-index: 1;
+}
+
+/* Таблица услуг*/
+/* Таблица услуг*/
+/* Таблица услуг*/
+
+.uslugy {
+    /* font-family: "Helvetica";
+    color: #363636; */
+    width:100%;
+    text-align:center;
+    color: #363636;
+    font-size: 1.15em;
+}
+
+.uslugyBox {
+    width:980px;
+
+    diplay: inline-block;
+}
+
+.uslugy div {
+      display: inline-table;
+      /* попробовать поиграть с разными дисплей inline-flex */
+  margin-top: 16px;
+  margin-bottom:1%;
+}
+
+.moika {
+    float:left;
+}
+
+.shino {
+
+}
+
+.razval {
+    float:right;
+}
+
+.uslugy li {
+    margin-left:0px;
+    line-height: 1.55em;
+    font-family: Georgia, "Helvetica", serif; 
+}
+
+.uslugy ul {
+  list-style: none;
+  text-align:left;
+    display:inline;
+
+}
+
+.uslugy h4 {
+    text-align:left;
+    font-family: 'Oswald', sans-serif;
+    line-height: 1.75em;
+}
+
+/* visited link */
+.uslugy a:visited {
+    color: #363636;
+} 
+
+/* mouse over link */
+.uslugy a:hover {
+    color: #FF3333;
+}
+
+/* selected link */
+.uslugy a:active {
+    color: #33CCFF;
+} 

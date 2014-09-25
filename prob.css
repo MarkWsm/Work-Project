@@ -1,0 +1,68 @@
+/* "Close" icon style and position */
+.icon-close {
+  cursor: pointer;
+  text-align:center;
+  padding-top: 10px;
+}
+
+/* Hiden Menu Style and position */
+
+.hidenMenu {
+  top: -120px ;  /* start off behind the scenes */
+  position: fixed;
+  height:100px;
+  width: 100%;
+  border-bottom: 0.15em solid #898989;
+    background-color:white;
+}
+
+.hidenMenu .menu {
+  text-align:center;
+  list-style: none;
+  margin-top: 5px;
+  font-family: "Helvetica";
+}
+
+.menu > li {
+  display: inline;
+  padding-left: 2em;
+  padding-right: 2em;
+  margin-right: 2em;
+}
+
+.menu a {
+  color: #898989;
+}
+
+/* Remove decorations for LINKs */
+.menu a:link {
+    text-decoration: none;
+}
+
+.menu a:visited {
+    text-decoration: none;
+}
+
+/* Icon "Menu" */
+
+.icon-menu {
+    cursor: pointer;
+    color: #898989;
+    text-align: center;
+    font-family: "Helvetica";
+    padding-bottom: 2.6em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 2.6em;
+    text-decoration: none;
+    text-transform: uppercase;
+    /* margin-bottom: 50px; */
+    font-size: 15px;
+    
+}
+
+/* BODY */
+body {
+  overflow: hidden;
+  position:static;
+}

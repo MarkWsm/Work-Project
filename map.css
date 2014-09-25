@@ -1,0 +1,107 @@
+/* "Close" icon style and position */
+.icon-close {
+  cursor: pointer;
+  text-align:center;
+  padding-top: 10px;
+}
+
+/* Hiden Menu Style and position */
+
+.hidenMenu {
+  top: -120px ;  /* start off behind the scenes */
+  position: fixed;
+  height:100px;
+  width: 100%;
+  border-bottom: 0.15em solid #898989;
+    background-color:white;
+}
+
+.hidenMenu .menu {
+  text-align:center;
+  list-style: none;
+  margin-top: 5px;
+  font-family: "Helvetica";
+}
+
+.menu > li {
+  display: inline;
+  padding-left: 2em;
+  padding-right: 2em;
+  margin-right: 2em;
+}
+
+.menu a {
+  color: #898989;
+}
+
+/* Remove decorations for LINKs */
+.menu a:link {
+    text-decoration: none;
+}
+
+.menu a:visited {
+    text-decoration: none;
+}
+
+/* Icon "Menu" */
+
+.icon-menu {
+    cursor: pointer;
+    color: #898989;
+    text-align: center;
+    font-family: "Helvetica";
+    padding-bottom: 2.6em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 2.6em;
+    text-decoration: none;
+    text-transform: uppercase;
+    /* margin-bottom: 50px; */
+    font-size: 15px;
+    
+}
+
+/* BODY */
+body {
+  overflow: hidden;
+
+}
+
+/* Google maps */
+/* Google maps */
+.blabla {
+    height: 100%;
+}
+
+.content {
+    width:100%;
+    text-align:center;
+}
+
+.map_contacts {
+    width:980px;
+    diplay: inline-block;  
+    margin: 0 auto;
+    height: 500px;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+
+}
+
+
+#map_canvas {
+    margin-top:10px;
+    margin-bottom: 10px;
+    width: 45%;
+    height: 450px;
+    float: left;
+}
+
+.contacts {
+    margin-top:10px;
+    margin-bottom: 10px;
+    diplay: block;
+    width:50%;
+    float: right;
+    height: 450px;
+}
